@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buienradar app</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Buienradar App</h2>
+        <div class="zoekbalk">
+            <input type="text" placeholder="Voer uw stad in">
+        </div>
+        <div class="nav">
+            <a href="#" class="selected">Het weer</a>
+            <a href="./over-ons.html">Over Ons</a>
+            <a href="./kanikzwemmen.html">Kan ik zwemmen</a>
+        </div>
+    </div>
+    <div class="weer">
+        <h2>Stad</h2>
+        <p id="stad">Inladen...</p>
+    
+        <h2>Gaat het regenen?</h2>
+        <p id="regen">Inladen...</p>
+
+        <h2>Radar</h2>
+        <img id="radar" src="#" alt="Radar foto">
+    </div>
+    <script>laad()</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(#66ff66, #00ff00);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+    margin: auto;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.nav a {
+    font-size: large;
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    margin-top: 0.5%;
+    margin-right: 5%;
+    justify-content: right;
+}
+
+.zoekbalk {
+    margin: auto;
+    width: 20%;
+    height: 100%;
+}
+
+.zoekbalk input {
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.selected {
+    font-weight: 600;
+}
+
+.weer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.weer #radar {
+    height: 500px;
+}
